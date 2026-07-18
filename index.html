@@ -1,310 +1,506 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Plastic Vegetable Crates | Reusable PP Corrugated Crates for Vegetables</title>
-  <meta name="description" content="Commercial plastic vegetable crates in polypropylene corrugated — washable, stackable, and ventilated for broccoli, cauliflower, cucumbers, and all fresh vegetables.">
-  <link rel="canonical" href="https://vegetablecrates.com/">
-  <meta property="og:title" content="Plastic Vegetable Crates | Reusable PP Corrugated Crates for Vegetables">
-  <meta property="og:description" content="Commercial plastic vegetable crates in polypropylene corrugated — washable, stackable, and ventilated for all fresh vegetables.">
-  <meta property="og:url" content="https://vegetablecrates.com/">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="https://brazenproducts.github.io/elipacko-assets/broccoli-box.jpg">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vegetable Crates – PP &amp; HDPE Farm Crates | vegetablecrates.com</title>
+  <meta name="description" content="Heavy-duty polypropylene and HDPE vegetable crates for farms, packers, and distributors. Ventilated, stackable, washable. Sizes 15L–60L. Bulk pricing from Elipacko." />
+  <link rel="canonical" href="https://vegetablecrates.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://vegetablecrates.com/" />
+  <meta property="og:title" content="Vegetable Crates – PP &amp; HDPE Farm &amp; Distribution Crates" />
+  <meta property="og:description" content="Ventilated, stackable, washable vegetable crates in sizes from 15L to 60L. Built for potatoes, onions, root veg, and more. Elipacko bulk supply." />
+  <meta property="og:site_name" content="vegetablecrates.com" />
+
+  <!-- JSON-LD Product Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Plastic Vegetable Crates",
-    "description": "Reusable polypropylene corrugated vegetable crates for commercial growers and distributors. Ventilated walls, food-safe, and compatible with standard Euro and North American pallet footprints.",
-    "brand": { "@type": "Brand", "name": "Elipacko" },
-    "url": "https://elipacko.com",
-    "image": "https://brazenproducts.github.io/elipacko-assets/broccoli-box.jpg",
-    "category": "Agricultural Packaging",
+    "name": "Vegetable Crates",
+    "brand": {
+      "@type": "Brand",
+      "name": "Elipacko"
+    },
+    "description": "Heavy-duty PP and HDPE vegetable crates for farm and distribution use. Ventilated, stackable, and washable in sizes from 15L to 60L.",
+    "url": "https://vegetablecrates.com/",
     "offers": {
       "@type": "Offer",
+      "url": "https://elipacko.com",
       "priceCurrency": "USD",
       "availability": "https://schema.org/InStock",
-      "url": "https://elipacko.com"
+      "seller": {
+        "@type": "Organization",
+        "name": "Elipacko"
+      }
     }
   }
   </script>
+
   <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
     :root {
-      --vc-green: #1e6b3d;
-      --vc-mid: #3a9960;
-      --vc-pale: #f0f7f2;
-      --vc-border: #b2dfc0;
-      --vc-dark: #0f2d1c;
-      --vc-text: #1c2e22;
+      --bg: #0d0d0d;
+      --bg2: #161616;
+      --bg3: #1e1e1e;
+      --amber: #d97706;
+      --amber-light: #f59e0b;
+      --text: #e8e8e8;
+      --muted: #999;
+      --border: #2a2a2a;
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: Georgia, 'Times New Roman', serif; background: #fff; color: var(--vc-text); line-height: 1.75; }
-    a { color: var(--vc-green); }
 
-    /* Hero */
-    .vc-hero {
-      background: var(--vc-pale);
-      border-bottom: 4px solid var(--vc-green);
-      padding: 72px 24px 64px;
-      text-align: center;
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-size: 17px;
+      line-height: 1.75;
     }
-    .vc-hero h1 {
-      font-size: 3rem;
-      font-weight: 900;
-      color: var(--vc-green);
-      margin-bottom: 16px;
-      font-style: italic;
+
+    /* ── NAV ── */
+    nav {
+      background: #080808;
+      border-bottom: 2px solid var(--amber);
+      padding: 0 5%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
     }
-    .vc-hero .subhead {
-      font-size: 1.15rem;
-      max-width: 600px;
-      margin: 0 auto 36px;
-      color: #3a4d40;
-    }
-    .vc-hero .vc-btn {
-      background: var(--vc-green);
-      color: #fff;
-      text-decoration: none;
-      padding: 14px 38px;
-      border-radius: 2px;
+    .nav-brand {
+      font-size: 1.1rem;
       font-weight: 700;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      font-style: normal;
-      font-size: 1rem;
-      display: inline-block;
-      transition: background 0.2s;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--amber-light);
+      text-decoration: none;
     }
-    .vc-btn:hover { background: var(--vc-dark); }
-
-    /* Feature list 2-col */
-    .vc-features {
-      max-width: 1060px;
-      margin: 0 auto;
-      padding: 60px 24px;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 40px 60px;
+    .nav-cta {
+      background: var(--amber);
+      color: #000;
+      font-weight: 700;
+      text-decoration: none;
+      padding: .45rem 1.2rem;
+      font-size: .9rem;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+      transition: background .2s;
     }
-    .vc-feat h3 { color: var(--vc-green); font-size: 1.1rem; margin-bottom: 8px; border-left: 4px solid var(--vc-mid); padding-left: 12px; }
-    .vc-feat p { font-size: 0.97rem; }
+    .nav-cta:hover { background: var(--amber-light); }
 
-    /* Photo grid 2x2 */
-    .vc-grid {
-      background: var(--vc-dark);
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 4px;
-      max-height: 500px;
+    /* ── HERO ── */
+    .hero {
+      background: linear-gradient(160deg, #111 0%, #1a1200 60%, #0d0d0d 100%);
+      border-bottom: 3px solid var(--amber);
+      padding: 100px 5% 90px;
+      position: relative;
       overflow: hidden;
     }
-    .vc-grid img { width: 100%; height: 250px; object-fit: cover; display: block; transition: opacity 0.3s; }
-    .vc-grid img:hover { opacity: 0.85; }
-
-    /* Comparison table */
-    .vc-compare {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 64px 24px;
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -80px; right: -80px;
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, rgba(217,119,6,.12) 0%, transparent 70%);
+      pointer-events: none;
     }
-    .vc-compare h2 { font-size: 1.9rem; color: var(--vc-green); margin-bottom: 8px; text-align: center; }
-    .vc-compare .intro { text-align: center; max-width: 640px; margin: 0 auto 36px; font-size: 0.98rem; }
-    .vc-compare table { width: 100%; border-collapse: collapse; font-family: 'Segoe UI', Arial, sans-serif; font-size: 0.95rem; }
-    .vc-compare th { background: var(--vc-green); color: #fff; padding: 13px 18px; text-align: left; }
-    .vc-compare td { padding: 11px 18px; border-bottom: 1px solid var(--vc-border); }
-    .vc-compare tr:nth-child(even) td { background: var(--vc-pale); }
-    .vc-compare .check { color: var(--vc-mid); font-weight: 700; }
-    .vc-compare .cross { color: #c0392b; }
-
-    /* Long copy section */
-    .vc-body {
-      background: var(--vc-pale);
-      padding: 64px 24px;
-    }
-    .vc-body-inner { max-width: 820px; margin: 0 auto; }
-    .vc-body h2 { font-size: 1.75rem; color: var(--vc-green); margin-bottom: 20px; }
-    .vc-body p { margin-bottom: 18px; font-size: 1.01rem; }
-
-    /* CTA */
-    .vc-cta {
-      background: var(--vc-green);
-      color: #fff;
-      text-align: center;
-      padding: 60px 24px;
-    }
-    .vc-cta h2 { font-size: 1.9rem; margin-bottom: 14px; }
-    .vc-cta p { max-width: 540px; margin: 0 auto 28px; opacity: 0.92; }
-    .vc-cta a {
-      background: #fff;
-      color: var(--vc-green);
-      font-weight: 700;
-      text-decoration: none;
-      padding: 13px 38px;
-      border-radius: 2px;
+    .hero-inner { max-width: 820px; position: relative; }
+    .hero-tag {
       display: inline-block;
-      font-family: 'Segoe UI', Arial, sans-serif;
+      border: 1px solid var(--amber);
+      color: var(--amber);
+      font-size: .78rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      padding: .3rem .8rem;
+      margin-bottom: 1.4rem;
     }
+    .hero h1 {
+      font-size: clamp(2.2rem, 5vw, 3.8rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -.02em;
+      color: #fff;
+      margin-bottom: 1.2rem;
+    }
+    .hero h1 span { color: var(--amber-light); }
+    .hero p {
+      font-size: 1.15rem;
+      color: #bbb;
+      max-width: 640px;
+      margin-bottom: 2rem;
+    }
+    .btn-primary {
+      display: inline-block;
+      background: var(--amber);
+      color: #000;
+      font-weight: 800;
+      text-decoration: none;
+      padding: .85rem 2rem;
+      font-size: 1rem;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      transition: background .2s, transform .15s;
+    }
+    .btn-primary:hover { background: var(--amber-light); transform: translateY(-2px); }
 
-    footer {
-      background: var(--vc-dark);
-      color: #8bb89a;
+    /* ── SPECS STRIP ── */
+    .specs-strip {
+      background: var(--bg3);
+      border-bottom: 1px solid var(--border);
+      padding: 0 5%;
+    }
+    .specs-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0;
+    }
+    .spec-item {
+      flex: 1 1 160px;
+      padding: 2rem 1.4rem;
+      border-right: 1px solid var(--border);
       text-align: center;
-      padding: 22px;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      font-size: 0.88rem;
     }
-    footer a { color: #8bb89a; }
+    .spec-item:last-child { border-right: none; }
+    .spec-icon {
+      font-size: 2rem;
+      display: block;
+      margin-bottom: .5rem;
+    }
+    .spec-label {
+      font-size: .72rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      display: block;
+      margin-bottom: .25rem;
+    }
+    .spec-value {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--amber-light);
+    }
 
-    @media (max-width: 680px) {
-      .vc-hero h1 { font-size: 2.1rem; }
-      .vc-features { grid-template-columns: 1fr; gap: 28px; }
-      .vc-grid { grid-template-columns: 1fr; max-height: none; }
-      .vc-grid img { height: 200px; }
+    /* ── SECTION WRAPPER ── */
+    .section { padding: 80px 5%; }
+    .section-inner { max-width: 1200px; margin: 0 auto; }
+    .section-title {
+      font-size: clamp(1.5rem, 3vw, 2.2rem);
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: .6rem;
+      letter-spacing: -.01em;
     }
+    .section-title span { color: var(--amber-light); }
+    .section-subtitle {
+      color: var(--muted);
+      font-size: 1rem;
+      margin-bottom: 3rem;
+    }
+
+    /* ── FEATURE CARDS ── */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+    @media(max-width:900px) { .cards-grid { grid-template-columns: 1fr; } }
+    .card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--amber);
+      padding: 2rem;
+    }
+    .card-icon { font-size: 2.2rem; margin-bottom: 1rem; display: block; }
+    .card h3 { font-size: 1.1rem; font-weight: 700; color: #fff; margin-bottom: .6rem; }
+    .card p { font-size: .95rem; color: #aaa; line-height: 1.7; }
+
+    /* ── COPY SECTION ── */
+    .copy-section { background: var(--bg2); }
+    .copy-body h2 {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: #fff;
+      margin: 2.5rem 0 .7rem;
+    }
+    .copy-body h2:first-child { margin-top: 0; }
+    .copy-body p { color: #bbb; margin-bottom: 1.1rem; line-height: 1.8; }
+    .copy-body ul {
+      margin: 0 0 1.1rem 1.4rem;
+      color: #bbb;
+    }
+    .copy-body ul li { margin-bottom: .4rem; }
+    .copy-body ul li::marker { color: var(--amber); }
+
+    /* ── COMPARISON TABLE ── */
+    .table-section { background: var(--bg); }
+    .compare-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .95rem;
+    }
+    .compare-table th {
+      background: var(--amber);
+      color: #000;
+      font-weight: 700;
+      padding: .9rem 1.2rem;
+      text-align: left;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      font-size: .82rem;
+    }
+    .compare-table td {
+      padding: .85rem 1.2rem;
+      border-bottom: 1px solid var(--border);
+      color: #ccc;
+    }
+    .compare-table tr:nth-child(even) td { background: var(--bg2); }
+    .compare-table td:first-child { font-weight: 600; color: #fff; }
+    .check { color: var(--amber-light); font-weight: 700; }
+    .cross { color: #555; }
+
+    /* ── FULL-WIDTH CTA ── */
+    .cta-full {
+      background: linear-gradient(135deg, #1a1000 0%, #0d0d0d 100%);
+      border-top: 3px solid var(--amber);
+      border-bottom: 3px solid var(--amber);
+      padding: 80px 5%;
+      text-align: center;
+    }
+    .cta-full h2 {
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      font-weight: 900;
+      color: #fff;
+      margin-bottom: 1rem;
+    }
+    .cta-full h2 span { color: var(--amber-light); }
+    .cta-full p { color: #aaa; font-size: 1.1rem; margin-bottom: 2rem; max-width: 560px; margin-left: auto; margin-right: auto; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: #080808;
+      border-top: 1px solid var(--border);
+      padding: 2rem 5%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+    footer p { color: var(--muted); font-size: .9rem; }
+    footer a { color: var(--amber); text-decoration: none; }
+    footer a:hover { color: var(--amber-light); }
   </style>
 </head>
 <body>
 
-<!-- Hero -->
-<header class="vc-hero">
-  <h1>Plastic Vegetable Crates</h1>
-  <p class="subhead">Professional-grade polypropylene crates purpose-built for the demands of fresh vegetable supply chains — from harvest bin to retail floor.</p>
-  <a href="https://elipacko.com" class="vc-btn">View Plastic Vegetable Crates at Elipacko →</a>
-</header>
+  <!-- NAV -->
+  <nav>
+    <a class="nav-brand" href="/">VegetableCrates.com</a>
+    <a class="nav-cta" href="https://elipacko.com" target="_blank" rel="noopener">Get a Quote</a>
+  </nav>
 
-<!-- Feature List 2-col -->
-<section class="vc-features">
-  <div class="vc-feat">
-    <h3>Ventilated Side Walls</h3>
-    <p>Perforated or slatted wall panels allow continuous airflow around your produce. This is non-negotiable for dense crops like broccoli and cauliflower, which generate significant respiration heat. Proper ventilation slows ethylene buildup and can extend shelf life by 2–4 days versus solid-walled alternatives.</p>
-  </div>
-  <div class="vc-feat">
-    <h3>Chemical-Resistant Surface</h3>
-    <p>Polypropylene is inherently resistant to dilute acids, alkalis, and the chlorine solutions used in commercial packing house sanitation. Unlike wood, it won't harbor bacteria in grain or splinters. A high-pressure hot wash returns crates to food-safe condition in minutes without degrading the structural integrity of the material.</p>
-  </div>
-  <div class="vc-feat">
-    <h3>Precision Load Ratings</h3>
-    <p>Reputable manufacturers test stacking loads in both loaded and empty configurations. Standard commercial vegetable crates are typically rated for 80–150 kg of dynamic stacking load, matching the demands of forklift-handled pallets at 6–8 crate height. Always verify the dynamic load rating — not just the static rating — for transport applications.</p>
-  </div>
-  <div class="vc-feat">
-    <h3>Cold Chain Compatible</h3>
-    <p>Polypropylene retains its structural properties from -20°C to +80°C, making it suitable for pre-cooling, cold-room storage, and refrigerated transport without any change in handling characteristics. There is no moisture absorption, no freezing and thawing distortion, and no risk of mold growth in the material itself.</p>
-  </div>
-  <div class="vc-feat">
-    <h3>Lightweight Logistics</h3>
-    <p>A typical plastic vegetable crate weighs 30–50% less than a comparable wooden crate, and the tare weight of cardboard isn't far behind once you factor in the wax coating and required corner pads. Lower tare weight means more net product per pallet, lower freight costs, and less strain on staff handling crates manually.</p>
-  </div>
-  <div class="vc-feat">
-    <h3>Traceability-Ready</h3>
-    <p>Modern plastic vegetable crates can be supplied with RFID-compatible labels, printed QR codes, or laser-etched identifiers for track-and-trace compliance. As food safety regulations tighten globally, having a crate that supports digital traceability is increasingly important for export markets and major retailer supply contracts.</p>
-  </div>
-  <div class="vc-feat">
-    <h3>Nesting &amp; Stacking</h3>
-    <p>Empty crates in a return-logistics scenario can nest inside each other, reducing the return-trip volume by 60–70%. This single feature often pays back the premium of a nesting-design crate within the first season of use on any route with significant backhaul distance.</p>
-  </div>
-  <div class="vc-feat">
-    <h3>Custom Branding</h3>
-    <p>UV-stable screen printing or in-mold labeling allows full-color branding on your crates — useful for branded produce programs, retailer private-label requirements, or simply making your crates easy to recover and identify in a mixed-crate pool operation.</p>
-  </div>
-</section>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-tag">Farm &amp; Distribution Packaging</span>
+      <h1>Heavy-Duty <span>Vegetable Crates</span> That Work as Hard as You Do</h1>
+      <p>PP and HDPE crates engineered for the full farm-to-shelf journey. Ventilated for produce freshness, stackable to maximise lorry and cold-store space, and built to survive thousands of wash cycles.</p>
+      <a class="btn-primary" href="https://elipacko.com" target="_blank" rel="noopener">Enquire at Elipacko →</a>
+    </div>
+  </section>
 
-<!-- Photo Grid 2×2 -->
-<div class="vc-grid">
-  <img src="https://brazenproducts.github.io/elipacko-assets/broccoli-box.jpg" alt="Broccoli in plastic vegetable crate">
-  <img src="https://brazenproducts.github.io/elipacko-assets/cauliflower-box.jpg" alt="Cauliflower in plastic vegetable crate">
-  <img src="https://brazenproducts.github.io/elipacko-assets/cucumber-box.jpg" alt="Cucumbers in plastic vegetable crate">
-  <img src="https://brazenproducts.github.io/elipacko-assets/spinach-box.jpg" alt="Spinach in plastic vegetable crate">
-</div>
-
-<!-- Comparison Table -->
-<section class="vc-compare">
-  <h2>Plastic vs. Other Vegetable Crate Materials</h2>
-  <p class="intro">A straightforward look at how polypropylene corrugated plastic vegetable crates compare against the most common alternatives used in commercial produce operations.</p>
-  <table>
-    <thead>
-      <tr>
-        <th>Feature</th>
-        <th>Plastic (PP Corrugated)</th>
-        <th>Wood</th>
-        <th>Waxed Cardboard</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Reusability</td>
-        <td class="check">✔ 50–200 trips</td>
-        <td>3–8 trips</td>
-        <td class="cross">✘ Single use</td>
-      </tr>
-      <tr>
-        <td>Washable / Sanitizable</td>
-        <td class="check">✔ Hot wash + sanitizer</td>
-        <td>Partial (splinters harbor bacteria)</td>
-        <td class="cross">✘ Not washable</td>
-      </tr>
-      <tr>
-        <td>Moisture Resistance</td>
-        <td class="check">✔ 100% resistant</td>
-        <td>Swells, warps, molds</td>
-        <td>Limited; collapses when saturated</td>
-      </tr>
-      <tr>
-        <td>Cold Chain Performance</td>
-        <td class="check">✔ Stable -20°C to +80°C</td>
-        <td>Acceptable</td>
-        <td>Degrades under sustained cold</td>
-      </tr>
-      <tr>
-        <td>Ventilation</td>
-        <td class="check">✔ Custom perforation patterns</td>
-        <td>Slatted designs available</td>
-        <td>Pre-cut vents, limited</td>
-      </tr>
-      <tr>
-        <td>Weight</td>
-        <td class="check">✔ Lightest option</td>
-        <td>Heaviest</td>
-        <td>Medium</td>
-      </tr>
-      <tr>
-        <td>End-of-Life Recyclable</td>
-        <td class="check">✔ PP recyclable (Category 5)</td>
-        <td>Compostable if untreated</td>
-        <td class="cross">✘ Wax coating contaminates</td>
-      </tr>
-      <tr>
-        <td>Long-Term Cost</td>
-        <td class="check">✔ Lowest per-trip cost</td>
-        <td>Medium</td>
-        <td class="cross">✘ Highest (disposable)</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
-
-<!-- Long body copy -->
-<section class="vc-body">
-  <div class="vc-body-inner">
-    <h2>Choosing the Right Plastic Vegetable Crate for Your Operation</h2>
-    <p>The fresh vegetable supply chain spans an enormous range of product types, handling conditions, and commercial relationships — from a small family farm selling at regional distribution hubs to a large commercial grower shipping container loads internationally. Plastic vegetable crates have become the packaging solution of choice across this entire spectrum, but selecting the right specification for your particular application requires some thought.</p>
-    <p>Start with the product itself. Leafy greens like spinach and green beans are lightweight and fragile; they need shallow crates with excellent ventilation and smooth interior surfaces that don't bruise delicate leaves. Root vegetables and brassicas like cauliflower are heavier and more robust — a deeper, higher load-rated crate with wider vent spacing is appropriate. Cucumbers and elongated vegetables benefit from crates with smooth base panels to prevent mechanical damage.</p>
-    <p>Next, consider your logistics model. Are your crates one-way (delivered to a retailer who disposes of them), or do they operate as a pool that returns to your facility? For pool operations, nesting crates dramatically reduce return freight costs and storage space. For one-way use, a lighter-weight economy crate may be more cost-effective even if it has lower reuse potential. Most serious commercial operations run a hybrid model: premium reusable crates for own-brand and direct retailer channels, with economy options for third-party distribution.</p>
-    <p>Pallet compatibility is another critical dimension. Confirm that the crate footprint you select tiles cleanly onto your pallet format with no wasted space or overhang. Poor pallet fit increases the risk of column damage in transit and wastes freight capacity. Euro-format crates (600 × 400 mm, 300 × 400 mm, and 400 × 300 mm) are optimized for EUR-1 pallets; North American formats are typically optimized for 48 × 40 inch GMA-standard pallets.</p>
-    <p>Finally, consider food safety certification requirements. If you supply supermarket chains or export to regulated markets, your crate manufacturer should be able to provide material safety data sheets (MSDS) confirming food-contact compliance, along with any relevant third-party certifications such as BRC, SQF, or GlobalG.A.P. supplier approval. <a href="https://elipacko.com">Plastic vegetable crate suppliers like Elipacko</a> can advise on specification and compliance requirements for your target markets.</p>
-    <p>Green bean and pumpkin packaging present their own specific considerations. Green beans are highly sensitive to ethylene and benefit from maximum-ventilation crate designs that promote rapid pre-cooling. Pumpkins, by contrast, need crates with high load ratings and robust base structure, since even a small pumpkin crop exerts significant cumulative weight on lower pallet tiers during transport.</p>
+  <!-- SPECS STRIP -->
+  <div class="specs-strip">
+    <div class="specs-grid">
+      <div class="spec-item">
+        <span class="spec-icon">📦</span>
+        <span class="spec-label">Size Range</span>
+        <span class="spec-value">15 L – 60 L</span>
+      </div>
+      <div class="spec-item">
+        <span class="spec-icon">⚗️</span>
+        <span class="spec-label">Material</span>
+        <span class="spec-value">PP / HDPE</span>
+      </div>
+      <div class="spec-item">
+        <span class="spec-icon">🔁</span>
+        <span class="spec-label">Reuse Cycles</span>
+        <span class="spec-value">200 – 400+</span>
+      </div>
+      <div class="spec-item">
+        <span class="spec-icon">🌡️</span>
+        <span class="spec-label">Temp Range</span>
+        <span class="spec-value">-20 °C to +60 °C</span>
+      </div>
+      <div class="spec-item">
+        <span class="spec-icon">🏗️</span>
+        <span class="spec-label">Stack Load</span>
+        <span class="spec-value">Up to 250 kg</span>
+      </div>
+      <div class="spec-item">
+        <span class="spec-icon">🚿</span>
+        <span class="spec-label">Washable</span>
+        <span class="spec-value">Pressure &amp; Chemical</span>
+      </div>
+    </div>
   </div>
-</section>
 
-<!-- CTA -->
-<section class="vc-cta">
-  <h2>Upgrade Your Vegetable Crates Today</h2>
-  <p>Find the right specification of plastic vegetable crate for your crop, logistics model, and budget — with expert guidance from Elipacko's produce packaging team.</p>
-  <a href="https://elipacko.com">Shop Plastic Vegetable Crates at Elipacko</a>
-</section>
+  <!-- FEATURE CARDS -->
+  <section class="section">
+    <div class="section-inner">
+      <h2 class="section-title">Why Growers &amp; Packers <span>Choose These Crates</span></h2>
+      <p class="section-subtitle">Three things set Elipacko vegetable crates apart on the farm and in the distribution centre.</p>
+      <div class="cards-grid">
+        <div class="card">
+          <span class="card-icon">🌬️</span>
+          <h3>Optimised Ventilation</h3>
+          <p>Precision-moulded vent slots on all four walls and the base promote airflow, letting ethylene gas escape and heat dissipate. Potatoes, onions, carrots, and brassicas arrive at the packing line in better condition than they left the field — with less spoilage trim and fewer rejections at the retailer.</p>
+        </div>
+        <div class="card">
+          <span class="card-icon">📐</span>
+          <h3>Intelligent Stacking</h3>
+          <p>Interlocking rim profiles align automatically when stacked, distributing load to the sidewalls rather than the produce. A full 6-high pallet of 30 L crates stays stable at highway speeds with no banding. When empty, the same crates nest 3:1 to cut return-trip transport costs dramatically.</p>
+        </div>
+        <div class="card">
+          <span class="card-icon">🧼</span>
+          <h3>Industrial-Grade Washability</h3>
+          <p>Smooth interior radii leave nowhere for soil, mould, or bacteria to hide. PP and HDPE both tolerate high-pressure hot-water wash tunnels and chlorinated or peracetic-acid sanitisers approved for food-contact surfaces. These crates come out of the wash line looking almost new even after hundreds of cycles.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<footer>
-  <p>© 2026 VegetableCrates.com &nbsp;|&nbsp; <a href="https://elipacko.com">Elipacko.com — Plastic Vegetable Crate Specialists</a></p>
-</footer>
+  <!-- LONG-FORM COPY -->
+  <section class="section copy-section">
+    <div class="section-inner">
+      <div class="copy-body">
+
+        <h2>The Full Story Behind a Vegetable Crate</h2>
+        <p>A vegetable crate sounds simple — it's a box with holes in it. But anyone who has watched cardboard disintegrate under a wet potato load, or seen a stack of flimsy crates collapse in a refrigerated trailer, knows the difference good equipment makes. The right crate is a piece of infrastructure that earns its keep over years of service, not a single-use cost that disappears with every shipment.</p>
+        <p>Elipacko's vegetable crates are injection-moulded from food-grade polypropylene (PP) or high-density polyethylene (HDPE). Both polymers are FDA- and EU-regulation-compliant for direct food contact, odourless, and free of the plasticisers that can leach into produce. PP offers slightly higher rigidity and is preferred for ambient-temperature applications; HDPE is the go-to where more impact toughness is needed — think stone-strewn root-crop lines or rough outdoor conditions.</p>
+
+        <h2>Size Range: 15 L to 60 L — Why It Matters</h2>
+        <p>Not every vegetable is the same weight per litre. A 30 L crate of potatoes might weigh 28 kg; the same crate of mixed salad leaves barely registers on the scales. Offering sizes from 15 L to 60 L allows operations to match crate volume to produce density so that:</p>
+        <ul>
+          <li>Workers are never lifting an overloaded crate — ergonomics compliance is simpler.</li>
+          <li>Transport payload is maximised — no wasted cubic footage on unnecessarily large containers.</li>
+          <li>Packing line flow is optimised — smaller crates for high-value, fragile items; larger crates for bulk root crops.</li>
+        </ul>
+        <p>Common configurations include a 15 L tote used for leeks and brassica heads, a 22 L mid-size for onions and shallots, a 30 L workhorse for carrots and parsnips, and a 45–60 L bulk crate for field-run potatoes before washing and grading. Elipacko can advise on the optimal size mix for your specific crop portfolio.</p>
+
+        <h2>Ventilation Design: Science, Not an Afterthought</h2>
+        <p>Produce is alive after harvest. It continues to respire, releasing heat, moisture, and ethylene gas. Trap those byproducts and you accelerate ripening, mould growth, and decay. Solid-sided containers — including unventilated plastic bins — are among the primary causes of cold-chain spoilage not attributable to temperature failure.</p>
+        <p>The ventilation pattern on Elipacko crates is not arbitrary. Slot dimensions and spacing are calculated to achieve a minimum 15% open-area ratio across all four sidewalls and the base, ensuring convective airflow even when crates are stacked tightly on a pallet. The apertures are sized to retain even small produce items like pickling onions or radishes without requiring a liner.</p>
+
+        <h2>Stackability and Logistics</h2>
+        <p>In a distribution centre moving tens of thousands of crates a day, every second of forklift time is a cost. Crates that don't stack cleanly, that shift under load, or that require manual realignment after each placement are a hidden efficiency drain. Elipacko's stacking profiles engage positive engagement features — shallow lugs on the upper rim fit corresponding recesses on the crate below, creating a column that behaves as a single unit under dynamic load.</p>
+        <p>This matters at 70 mph on the motorway. A pallet of 6-high loaded crates can experience significant lateral forces through bends and emergency braking. Properly interlocked stacks require no wrap or strapping at normal pallet heights, saving consumable cost and unloading time at destination.</p>
+        <p>The nesting ratio (typically 3:1 for standard depths) means return logistics costs are a fraction of single-use alternatives. If your crates are doing a 200-km round trip, the transport cost of the empty return is no longer a rounding error on your P&L.</p>
+
+        <h2>Applications: Beyond the Obvious</h2>
+        <p>While potatoes, onions, and root vegetables are the highest-volume applications, Elipacko crates are in daily use across a wider range of contexts:</p>
+        <ul>
+          <li><strong>Mushroom cultivation</strong> — the open ventilation suits the high-humidity growing environment; the washable surface survives steam cleaning between flushes.</li>
+          <li><strong>Citrus fruit</strong> — the stacking strength handles dense loads; the vents allow forced-air cooling in packhouses.</li>
+          <li><strong>Herb growing</strong> — small 15 L sizes work as growing trays and transport containers for direct-to-chef deliveries.</li>
+          <li><strong>Aquaculture and fish</strong> — HDPE crates withstand ice, saltwater, and the aggressive sanitisers used in fish processing.</li>
+          <li><strong>Industrial parts washing</strong> — outside food entirely, the crates serve as wash baskets in automotive and engineering workshops.</li>
+        </ul>
+
+        <h2>Total Cost of Ownership vs Cardboard and Wood</h2>
+        <p>Cardboard one-trip crates cost between £0.35 and £0.90 each at volume. A PP vegetable crate from Elipacko costs more upfront — but across 300 trips, the per-trip cost drops to a few pence. Factor in the labour to break down and dispose of cardboard, the landfill or recycling costs, and the variable price of corrugated board, and the economics become overwhelming. Wooden crates carry lower initial cost but impose phytosanitary obligations on international shipments, require regular repair, and eventually can't be washed to food-safety standards.</p>
+        <p>The environmental case is equally strong: a reusable crate used 300 times has a fraction of the lifecycle carbon footprint of 300 cardboard equivalents, even accounting for the higher production energy of a moulded plastic item.</p>
+
+        <h2>Ordering and Customisation</h2>
+        <p>Elipacko supplies vegetable crates in standard colours (black, grey, red, yellow) for easy line segregation, and can accommodate custom colour compounding for larger orders. Embossed or printed logos, RFID tag receptacles, and barcode label panels are available on minimum order quantities. Lead times, MOQs, and full technical datasheets are available directly from Elipacko's team.</p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARISON TABLE -->
+  <section class="section table-section">
+    <div class="section-inner">
+      <h2 class="section-title">Crate Material <span>Comparison</span></h2>
+      <p class="section-subtitle">How PP/HDPE stacks up against the alternatives.</p>
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>PP / HDPE Crate</th>
+            <th>Cardboard Box</th>
+            <th>Wooden Crate</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Reusable</td>
+            <td class="check">✔ 200–400+ trips</td>
+            <td class="cross">✖ Single use</td>
+            <td class="cross">△ Limited / deteriorates</td>
+          </tr>
+          <tr>
+            <td>Washable to food-safe standard</td>
+            <td class="check">✔ Full wash tunnel</td>
+            <td class="cross">✖ Not washable</td>
+            <td class="cross">△ Surface only</td>
+          </tr>
+          <tr>
+            <td>Cold-chain performance</td>
+            <td class="check">✔ -20 °C to +60 °C</td>
+            <td class="cross">✖ Weakens when wet/cold</td>
+            <td class="check">✔ Good</td>
+          </tr>
+          <tr>
+            <td>Stackability under load</td>
+            <td class="check">✔ 250 kg column load</td>
+            <td class="cross">✖ Crushes when wet</td>
+            <td class="check">✔ Good dry</td>
+          </tr>
+          <tr>
+            <td>Nesting when empty</td>
+            <td class="check">✔ 3:1 nesting ratio</td>
+            <td class="check">✔ Flat-pack</td>
+            <td class="cross">✖ Bulky</td>
+          </tr>
+          <tr>
+            <td>Phytosanitary compliance</td>
+            <td class="check">✔ No treatment needed</td>
+            <td class="check">✔ No treatment needed</td>
+            <td class="cross">✖ ISPM-15 treatment required</td>
+          </tr>
+          <tr>
+            <td>Per-trip cost (volume)</td>
+            <td class="check">✔ Lowest over time</td>
+            <td class="cross">✖ Highest cumulative</td>
+            <td class="cross">△ Medium</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- FULL-WIDTH CTA -->
+  <section class="cta-full">
+    <h2>Ready to Upgrade Your <span>Produce Handling</span>?</h2>
+    <p>Get specifications, pricing, and sample availability for the full range of Elipacko vegetable crates — 15 L through 60 L, PP and HDPE.</p>
+    <a class="btn-primary" href="https://elipacko.com" target="_blank" rel="noopener">Contact Elipacko for Pricing →</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 <strong>vegetablecrates.com</strong> — Product information site</p>
+    <p>Supplied by <a href="https://elipacko.com" target="_blank" rel="noopener">Elipacko</a></p>
+  </footer>
 
 </body>
 </html>
